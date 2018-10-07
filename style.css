@@ -3,6 +3,10 @@
 }
 
 body{
-    max-width: 700px;
+    max-width: 400px;
     margin: 0 auto;
+}
+
+p{
+    font-family: Roboto;
 }
