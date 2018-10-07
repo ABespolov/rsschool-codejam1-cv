@@ -5,8 +5,10 @@
 body{
     max-width: 400px;
     margin: 0 auto;
+    
 }
 
 p{
     font-family: Roboto;
+    text-align: center;
 }
