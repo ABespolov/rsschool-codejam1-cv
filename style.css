@@ -1,3 +1,7 @@
 *{
     font-family: Roboto;
 }
+
+body{
+    max-width: 700px;
+}
