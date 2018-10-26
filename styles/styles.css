@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+* {
+    font-family: 'Open Sans', sans-serif!important;
+}
+
+html {
+    font-size: 16px;
+    background: rgb(243, 247, 247);
+}
+
+.container {
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.header {
+    background: #39424e;
+    color: #b7c9cc;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.header__content__text {
+    border-left: 2px solid #b7c9cc;
+    padding-left: 0.5rem;
+}
+
+.header__content__image {
+    width: 100%;
+    max-width: 8rem;
+    margin-right: 1.5rem;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 3px #b7c9cc;
+}
+
+.header__content__text__name {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.header__content__text__birth {
+    font-size: 1.2rem;
+    line-height: 18px;
+}
+
+.info-block:not(:last-child) {
+    padding-bottom: 0;
+}
+
+.info-block__title {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.info-block__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-block__content__item {
+    width: 42%;
+    min-height: 12rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 6px 16px 0 rgba(115, 143, 147, .4);
+}
+
+.info-block__content__item__list {
+    padding-left: 1rem;
+}
+
+.info-block__content__item__text strong {
+    font-weight: 700;
+}
+
+.info-block__content__item__list__item,
+.info-block__content__item__text {
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 17px;
+}
+
+.info-block__content__item__list__item:not(:first-child),
+.info-block__content__item__text:not(:first-child) {
+    margin-top: 1rem;
+}
+
+@media(max-width: 1024px) {
+    .container {
+        padding: 3rem 15px;
+    }
+}
+
+@media(max-width: 860px) {
+    .info-block__content {
+        flex-flow: column;
+    }
+    .info-block__content__item {
+        width: inherit;
+    }
+}
+
+@media(max-width: 560px) {
+    html {
+        font-size: 13px;
+    }
+}
